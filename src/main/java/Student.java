@@ -63,5 +63,9 @@ public class Student {
         grades.remove(gradeIndex);
         };
 
+    public double getGradeAverage() {
+        return gradeAverage();
+    }
+
 
 }
